@@ -1,0 +1,52 @@
+Header: [Name of Component]
+vitrage_conf_policy:
+  monitoring_tool: [Name of Monitoring Tool]
+  server_ip: [Zabbix Server IP]
+  server_port: [Zabbix Server Port]
+  server_pass: [Zabbix Server Password]
+  server_user: [Zabbix user name]
+  vm_ip: [Zabbix Agent IP]
+  vm_id: [VM ID]
+  host_name: [VM host name]
+  host_type: [1.nova.instance / 2. nova.host]
+  vm_interface: [VM Interface]
+
+app_monitoring_policy:
+  name: zabbix
+  host_name: [VM host name]
+  zabbix_username: [Zabbix user ID]
+  zabbix_password: [Zabbix user Password]
+  zabbix_server_ip: [Zabbix server IP]
+  zabbix_server_port: [Zabbix server Port]
+  mgmt_ip : [Zabbix agent IP]
+  parameters:
+    application:
+      app_name: [application-name]
+      app_port: [application-port]
+      ssh_username: [ssh username in VNF OS]
+      ssh_password: [ssh password in VNF OS]
+      app_status:
+        usage: [1.true / 2. false]
+        condition: [comparison,value]
+        cmd-action: [action name]
+      app_memory:
+        usage: [1.true / 2. false]
+        condition: [comparison,value]
+        cmd-action: [action name]
+    OS:
+      os_agent_info:
+        usage: [1.true / 2. false]
+        condition: [comparison,value]
+        cmd-action: [action name]
+      os_proc_value:
+        usage: [1.true / 2. false]
+        condition: [comparison,value]
+        cmd-action: [action name]
+      os_cpu_load:
+        usage: [1.true / 2. false]
+        condition: [comparison,value]
+        cmd-action: [action name]
+      os_cpu_usage:
+        usage: [1.true / 2. false]
+        condition: [comparison,value]
+        cmd-action: [action name]
