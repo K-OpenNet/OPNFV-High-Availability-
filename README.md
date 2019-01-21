@@ -14,3 +14,8 @@
 * Zabbix
 
 ![zabbix](https://user-images.githubusercontent.com/16011260/51455612-c8533000-1d8d-11e9-978c-5d5caa22b172.PNG)
+
+## 해당 소프트웨어와 연계한 기술문서 및 데모/포스터 실적
+기술문서 : [K-ONE#36 Integrated management system for High availability in multi-site.docx](https://github.com/K-OpenNet/OPNFV-High-Availability-/files/2778741/K-ONE.36.Integrated.management.system.for.High.availability.in.multi-site.docx)
+
+포스터 : [[숭실대학교]ONK 2018 Fall.pdf](https://github.com/K-OpenNet/OPNFV-High-Availability-/files/2778764/ONK.2018.Fall.pdf)
