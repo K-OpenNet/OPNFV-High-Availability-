@@ -8,7 +8,9 @@
 
 ## 타겟 오픈소스 프로젝트
 * OpenStack Vitrage
+
 ![vitrage](https://user-images.githubusercontent.com/16011260/51455577-a063cc80-1d8d-11e9-8df1-792b38f6d944.png)
 
 * Zabbix
+
 ![zabbix](https://user-images.githubusercontent.com/16011260/51455612-c8533000-1d8d-11e9-978c-5d5caa22b172.PNG)
